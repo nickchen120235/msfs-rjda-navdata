@@ -24,7 +24,7 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageSourcesdata\</AssetDir>
+			<AssetDir>PackageSources\data\</AssetDir>
 			<OutputDir>Scenery\rjda-navdata\</OutputDir>
 		</AssetGroup>
 	</AssetGroups>
