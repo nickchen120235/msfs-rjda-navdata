@@ -15,5 +15,20 @@
 				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
 			</MissedApproachLegs>
 		</Approach>
+		<Approach type="RNAV" runway="31" suffix="X" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" altitude="2600.0F" heading="312.0" missedAltitude="4000.0F" lp="TRUE">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" altitudeDescriptor="+" altitude1="4000.0F" isIAF="TRUE" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DATEK" flyOver="FALSE" magneticCourse="241.0" distance="7.8N" altitudeDescriptor="+" altitude1="2900.0F" isIF="TRUE" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" flyOver="FALSE" magneticCourse="312.0" distance="3.3N" altitudeDescriptor="A" altitude1="2600.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ150" flyOver="FALSE" magneticCourse="312.0" distance="3.6N" verticalAngle="-3.0" />
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ152" flyOver="FALSE" magneticCourse="312.0" distance="2.5N" verticalAngle="-3.0" isMAP="TRUE" />
+				<Leg type="TF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW31" flyOver="TRUE" magneticCourse="312.0" distance="0.9N" altitudeDescriptor="A" altitude1="330.0F" verticalAngle="-3.0" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DZ153" flyOver="TRUE" turnDirection="E" />
+				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" flyOver="FALSE" turnDirection="R" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
+			</MissedApproachLegs>
+		</Approach>
 	</Airport>
 </FSData>
