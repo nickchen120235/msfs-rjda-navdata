@@ -1,9 +1,19 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<Airport displayName="Amakusa" groupID="4294967295" groupGenerated="FALSE" name="Amakusa" ident="RJDA" lat="32.48222004622221" lon="130.15890017151833" alt="100.58400726318359" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
-		<Aprons/>
-		<PaintedElements/>
-		<ApronEdgeLights/>
+		<Approach type="RNAV" runway="31" suffix="Z" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" altitude="2600.0F" heading="312.0" missedAltitude="4000.0F" lnavvnav="TRUE">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" altitudeDescriptor="+" altitude1="4000.0F" isIAF="TRUE" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DATEK" flyOver="FALSE" magneticCourse="241.0" distance="7.8N" altitudeDescriptor="+" altitude1="2900.0F" isIF="TRUE" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" flyOver="FALSE" magneticCourse="312.0" distance="3.3N" altitudeDescriptor="A" altitude1="2600.0F" verticalAngle="-3.0" isFAF="TRUE" />
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ150" flyOver="FALSE" magneticCourse="312.0" distance="3.6N" verticalAngle="-3.0" />
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ151" flyOver="FALSE" magneticCourse="312.0" distance="3.0N" verticalAngle="-3.0" isMAP="TRUE" />
+				<Leg type="TF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW31" flyOver="TRUE" magneticCourse="312.0" distance="0.4N" altitudeDescriptor="A" altitude1="330.0F" verticalAngle="-3.0" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" flyOver="FALSE" turnDirection="R" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
+			</MissedApproachLegs>
+		</Approach>
 	</Airport>
 </FSData>
-
