@@ -12,7 +12,7 @@
 			</ApproachLegs>
 			<MissedApproachLegs>
 				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" flyOver="FALSE" turnDirection="R" />
-				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="282.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
 			</MissedApproachLegs>
 		</Approach>
 		<Approach type="RNAV" runway="31" suffix="X" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" altitude="2600.0F" heading="312.0" missedAltitude="4000.0F" lp="TRUE">
@@ -27,7 +27,7 @@
 			<MissedApproachLegs>
 				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DZ153" flyOver="TRUE" turnDirection="E" />
 				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" flyOver="FALSE" turnDirection="R" />
-				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="282.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
 			</MissedApproachLegs>
 		</Approach>
 	</Airport>
