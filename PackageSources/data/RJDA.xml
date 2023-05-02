@@ -25,7 +25,7 @@
 				<Leg type="TF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW31" flyOver="TRUE" magneticCourse="312.0" distance="0.9N" altitudeDescriptor="A" altitude1="330.0F" verticalAngle="-3.0" />
 			</ApproachLegs>
 			<MissedApproachLegs>
-				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="DZ153" flyOver="TRUE" turnDirection="E" />
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ153" flyOver="TRUE" turnDirection="E" />
 				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" flyOver="FALSE" turnDirection="R" />
 				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" magneticCourse="282.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
 			</MissedApproachLegs>
