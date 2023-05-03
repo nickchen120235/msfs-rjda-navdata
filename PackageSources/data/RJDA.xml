@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<Airport displayName="Amakusa" groupID="4294967295" groupGenerated="FALSE" name="Amakusa" ident="RJDA" lat="32.48222004622221" lon="130.15890017151833" alt="100.58400726318359" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+		<Waypoint lat="32.40536" lon="130.358795" waypointType="UNNAMED" waypointRegion="RJ" waypointIdent="D110" />
+		<Waypoint lat="32.47119" lon="130.175127" waypointType="UNNAMED" waypointRegion="RJ" waypointIdent="D009" />
 		<Approach type="RNAV" runway="31" suffix="Z" fixType="WAYPOINT" fixRegion="RJ" fixIdent="GOSKI" altitude="2600.0F" heading="312.0" missedAltitude="4000.0F" lnavvnav="TRUE">
 			<ApproachLegs>
 				<Leg type="IF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="IRUKA" altitudeDescriptor="+" altitude1="4000.0F" isIAF="TRUE" />
@@ -54,6 +56,22 @@
 				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="DZ350" flyOver="TRUE" turnDirection="E" />
 				<Leg type="DF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="FUGEN" flyOver="FALSE" turnDirection="L" />
 				<Leg type="HM" fixType="WAYPOINT" fixRegion="RJ" fixIdent="FUGEN" magneticCourse="245.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
+			</MissedApproachLegs>
+		</Approach>
+		<Approach type="VOR" runway="31" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SUMOT" altitude="2826.0F" heading="307.0" missedAltitude="4000.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="VOR" fixRegion="RJ" fixIdent="AKE" altitudeDescriptor="+" altitude1="3400.0F" isIAF="TRUE" />
+				<Leg type="FD" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="D110" flyOver="TRUE" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" theta="114.0" rho="11.0N" magneticCourse="114.0" distance="11.0N" />
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="RJ" fixIdent="SUMOT" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" theta="127.0" rho="7.8N" magneticCourse="307.0" altitudeDescriptor="A" altitude1="2826.0F" isFAF="TRUE" />
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RJ" fixIdent="D009" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" theta="127.0" rho="0.9N" magneticCourse="307.0" isMAP="TRUE" />
+				<Leg type="TF" fixType="RUNWAY" fixRegion="RJ" fixIdent="RW31" flyOver="TRUE" magneticCourse="312.0" distance="0.9N" altitudeDescriptor="A" altitude1="330.0F" />
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VI" turnDirection="R" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" magneticCourse="132.0" />
+				<Leg type="VR" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" theta="102.0" magneticCourse="132.0" />
+				<Leg type="CD" recommendedType="VOR" recommendedRegion="RJ" recommendedIdent="AKE" magneticCourse="102.0" distance="7.0N" />
+				<Leg type="DF" fixType="VOR" fixRegion="RJ" fixIdent="AKE" flyOver="FALSE" turnDirection="R" />
+				<Leg type="HM" fixType="VOR" fixRegion="RJ" fixIdent="AKE" magneticCourse="102.0" time="1.0" altitudeDescriptor="+" altitude1="4000.0F" />
 			</MissedApproachLegs>
 		</Approach>
 	</Airport>
